@@ -1,0 +1,194 @@
+/* =========================
+   BLEND NAVBAR
+========================= */
+
+.navbar {
+  width: 100%;
+  min-height: 90px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  padding: 0 6vw;
+
+  background: rgba(253, 250, 246, 0.97);
+  border-bottom: 1px solid #e8d8ca;
+
+  backdrop-filter: blur(10px);
+}
+
+
+/* =========================
+   BRAND
+========================= */
+
+.brand {
+  display: flex;
+  flex-direction: column;
+
+  color: #332822;
+  text-decoration: none;
+}
+
+.brand:hover {
+  color: #332822;
+  text-decoration: none;
+}
+
+.brand-main {
+  font-family: "Cormorant Garamond", Georgia, serif;
+
+  font-size: 1.9rem;
+  font-weight: 500;
+
+  line-height: 1;
+
+  letter-spacing: 4px;
+}
+
+.brand-sub {
+  margin-top: 6px;
+
+  font-family: "Montserrat", Arial, sans-serif;
+
+  font-size: 0.55rem;
+  font-weight: 500;
+
+  color: #a98269;
+
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+
+/* =========================
+   NAVIGATION MENU
+========================= */
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+
+  gap: 35px;
+}
+
+.nav-menu a {
+  position: relative;
+
+  color: #51433b;
+  text-decoration: none;
+
+  font-family: "Montserrat", Arial, sans-serif;
+
+  font-size: 0.7rem;
+  font-weight: 500;
+
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  transition: color 0.25s ease;
+}
+
+
+/* =========================
+   HOVER EFFECT
+========================= */
+
+.nav-menu a:hover {
+  color: #a98269;
+}
+
+.nav-menu a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -8px;
+
+  width: 0;
+  height: 1px;
+
+  background-color: #a98269;
+
+  transition: width 0.25s ease;
+}
+
+.nav-menu a:hover::after {
+  width: 100%;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 900px) {
+  .navbar {
+    padding: 0 30px;
+  }
+
+  .nav-menu {
+    gap: 20px;
+  }
+
+  .nav-menu a {
+    font-size: 0.62rem;
+    letter-spacing: 1px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 700px) {
+  .navbar {
+    min-height: auto;
+
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 20px 25px;
+
+    gap: 20px;
+  }
+
+  .nav-menu {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px 22px;
+  }
+
+  .nav-menu a {
+    font-size: 0.62rem;
+  }
+}
+
+
+/* =========================
+   SMALL PHONES
+========================= */
+
+@media (max-width: 450px) {
+  .brand-main {
+    font-size: 1.6rem;
+  }
+
+  .brand-sub {
+    font-size: 0.5rem;
+  }
+
+  .nav-menu {
+    gap: 12px 18px;
+  }
+}
