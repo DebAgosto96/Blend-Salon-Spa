@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className="social-links">
           <a
-            href="https://www.facebook.com/"
+            href="https://www.facebook.com/blendhairsalonandspa/"
             target="_blank"
             rel="noopener noreferrer"
           >

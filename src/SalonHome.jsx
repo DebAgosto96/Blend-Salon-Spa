@@ -201,7 +201,7 @@ const SalonHome = () => {
         </div>
       </section>
 
-      {/* BOOK APPOINTMENT
+      BOOK APPOINTMENT
 
       <section id="book" className="booking-section">
         <div className="booking-content">
@@ -229,7 +229,7 @@ const SalonHome = () => {
         </div>
       </section>
 
-      */}
+     
 
       {/* GALLERY */}
 
