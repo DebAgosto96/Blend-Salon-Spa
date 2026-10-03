@@ -201,7 +201,7 @@ const SalonHome = () => {
         </div>
       </section>
 
-      BOOK APPOINTMENT
+      {/* BOOK APPOINTMENT */}
 
       <section id="book" className="booking-section">
         <div className="booking-content">
@@ -219,7 +219,7 @@ const SalonHome = () => {
           </p>
 
           <a
-            href="https://www.vagaro.com/casscuts/services"
+            href="https://glossgenius.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="button button-primary"
