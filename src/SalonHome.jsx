@@ -261,40 +261,6 @@ const SalonHome = () => {
           ))}
         </div>
       </section>
-
-      {/* CONTACT */}
-
-      <section id="contact" className="contact-section">
-        <div className="contact-heading">
-          <p className="eyebrow">COME VISIT US</p>
-
-          <h2>
-            We'd love to
-            <br />
-            <em>see you.</em>
-          </h2>
-        </div>
-
-        <div className="contact-details">
-          <div>
-            <h3>Location</h3>
-            <p>Blend Salon & Spa</p>
-            <p>208 2nd Ave SE Sidney, MT</p>
-          </div>
-
-          <div>
-            <h3>Hours</h3>
-            <p>Monday – Friday</p>
-            <p>9:00 AM – 5:00 PM</p>
-          </div>
-
-          <div>
-            <h3>Contact</h3>
-            <p>(406) 433-4247</p>
-            <p>Your email address</p>
-          </div>
-        </div>
-      </section>
     </div>
   );
 };

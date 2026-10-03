@@ -7,6 +7,7 @@ import "./SalonHome.css";
 import NavBar from "./components/NavBar";
 import Home from "./SalonHome";
 import NotFound from "./components/NotFound";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -19,6 +20,8 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+
+      <Footer />
     </div>
   );
 };

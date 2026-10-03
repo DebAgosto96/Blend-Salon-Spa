@@ -1,5 +1,6 @@
 const path = require("path");
 const webpack = require("webpack");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 require("dotenv").config();
 
 module.exports = {
@@ -30,6 +31,15 @@ module.exports = {
       REACT_APP_AUTH0_DOMAIN: "",
       REACT_APP_AUTH0_CLIENT_ID: "",
       REACT_APP_AUTH0_AUDIENCE: "",
+    }),
+
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "public"),
+          to: path.resolve(__dirname, "dist"),
+        },
+      ],
     }),
   ],
 
