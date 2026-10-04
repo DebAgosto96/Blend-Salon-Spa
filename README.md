@@ -1,16 +1,31 @@
-# Capstone II Frontend
+www.BlendSalonandSpaMT.com
 
-This project uses React and React-Router to display a Single-Page App.
+The website was designed and developed from scratch using React, JavaScript, HTML/CSS, Webpack, and React Router. Rather than relying on a pre-built website template, the project focuses on creating a customized experience tailored specifically to a salon and spa business.
 
-## Getting Started
+## Features
+The website includes:
+- Responsive design for desktop and mobile devices
+- Custom salon inspired branding and styling
+- Service categories for hair, nails, skincare, brows, lashes, beauty, and spa services
+- Salon team/stylist showcase
+- Portfolio and image gallery
+- Online appointment booking integration
+- Business hours and location information
+- Contact and social media links
+- Custom domain and HTTPS support
+- React-based navigation and page routing
+- Automated deployment through GitHub and Netlify
 
-This app works best in conjunction with a Capstone II Backend. Go to that repo and get it up and running so that this Frontend has an API to request data from.
+## Purpose
+This project was created as both a real world web development project and an example of how custom development can help small businesses establish a stronger digital presence.
+The project demonstrates experience with front-end development, responsive UI design, asset management, external service integration, Git/GitHub version control, Webpack configuration, domain configuration, and production deployment.
 
-With that done, run the following commands:
-
-1. Clone or fork this repository on GitHub.
-2. Install the NPM packages: `npm install`
-3. Preview your React app: `npm run start-dev`
-
-You should be able to deploy this application to Vercel by simply connecting the GitHub repo to a new Vercel project. You will also need to configure the `API_URL` environment variable on Vercel to match the deployed API url for your backend. Likewise, you may need to configure the `FRONTEND_URL` environment varialbe on your Backend to match the deployed URL for this app.
-# Blend-Salon-Spa
+## Technologies
+- React
+- JavaScript
+- HTML5
+- CSS3
+- React Router
+- Webpack
+- Git & GitHub
+- Netlify
